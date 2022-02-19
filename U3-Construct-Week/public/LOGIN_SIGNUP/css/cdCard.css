@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+#cdForm {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: fit-content;
+	margin-top: 150px;
+	border: 1px solid grey;
+	border-radius: 2px;
+	padding: 10px 15px;
+	gap: 20px;
+	background-color: rgb(255, 223, 200);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#cdForm > h3 {
+	font-weight: 400;
+	margin: 10px auto 30px auto;
+	font-size: 17px;
+	color: rgb(29, 29, 29);
+}
+
+#lastDigits {
+	font-weight: 500;
+}
+
+#cdForm > input[type="text"] {
+	height: 30px;
+	padding-left: 5px;
+	border-radius: 10px;
+
+	border: 1px solid grey;
+}
+
+#cdForm > input[type="submit"] {
+	padding: 10px;
+	font-size: 18px;
+	margin: auto;
+	margin-top: 30px;
+	width: 200px;
+	border-radius: 10px;
+	border: none;
+	background-color: #ffc439;
+	color: rgb(29, 29, 29);
+}
+#cdForm > input[type="submit"]:hover {
+	background-color: #ffd470;
+	cursor: pointer;
+}

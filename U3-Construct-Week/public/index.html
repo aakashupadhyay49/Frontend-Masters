@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			Frontend Masters — Learn JavaScript, React, Vue &amp; Angular from Masters
+			of Front-End Development!
+		</title>
+		<link rel="stylesheet" href="home.css" />
+		<link rel="stylesheet" href="tweets.css" />
+		<link rel="stylesheet" href="/flickity/flickity.min.css" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://frontendmasters.com/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://frontendmasters.com/favicon-16x16.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Navbar Starts Here -->
+		<nav id="navbar"></nav>
+		<!-- Navbar Ends Here -->
+		<section class="background">
+			<div id="content">
+				<h1>
+					<strong>Advance Your Skills</strong>
+					<span>with In-Depth, Modern</span>
+					<span>Front-End Engineering Courses</span>
+					<button id="goToCoursesButton">
+						<a href="courses.html">Browse Our Courses</a>
+					</button>
+					<button><a href="#">View Learning Paths</a></button>
+				</h1>
+			</div>
+		</section>
+		<div class="overview">
+			<a href="#" class="javascript"></a>
+			<a href="#" class="react"></a>
+			<a href="#" class="typescript"></a>
+			<a href="#" class="nodejs"></a>
+			<a href="#" class="vuejs"></a>
+			<a href="#" class="angular"></a>
+			<a href="#" class="css3"></a>
+			<a href="#" class="d3js"></a>
+			<a href="#" class="webpack"></a>
+		</div>
+		<div id="tweets">
+			<div
+				id="carousel1"
+				class="gallery js-flickity"
+				data-flickity-options='{ "wrapAround": true,"pageDots":false}'
+			>
+				<div id="cell1" class="gallery-cell"></div>
+				<div id="cell2" class="gallery-cell"></div>
+				<div id="cell3" class="gallery-cell"></div>
+			</div>
+		</div>
+		<section class="joinClass">
+			<div id="joinNow">
+				<h1>
+					Join Now and Learn Straight<br />
+					from the Experts Who Shape<br />
+					the Modern Web
+				</h1>
+				<a href="#" class="joinBtn">
+					<div class="main2">Join Now</div>
+				</a>
+			</div>
+		</section>
+		<section class="homeAd">
+			<div class="s-wrap">
+				<img src="Images/bootcamp.png" width="250px" style="margin-top: 50px" />
+				<p>
+					Looking to take your first steps in Web Development?
+					<br />
+					Try the free Frontend Masters Bootcamp!
+				</p>
+				<p>
+					<a href="#">More Info ></a>
+				</p>
+			</div>
+		</section>
+
+		<!-- Footer Starts Here -->
+		<footer id="footer"></footer>
+		<!-- Footer Ends Here -->
+	</body>
+</html>
+<script type="module">
+	function goToCourse() {
+		window.location.href = "/courses.html";
+	}
+	import { navbar, footer } from "/componant/navbar.js";
+	document.getElementById("footer").innerHTML = footer();
+	document.getElementById("navbar").innerHTML = navbar();
+
+	document
+		.getElementById("goToCoursesButton")
+		.addEventListener("click", goToCourse);
+</script>
+<script src="js/smallScript.js"></script>
+<script src="js/tweets.js" type="module"></script>
+<script src="flickity/flickity.pkgd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

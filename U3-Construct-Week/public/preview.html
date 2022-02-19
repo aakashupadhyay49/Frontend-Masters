@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/styles/preview.css" />
+		<link rel="stylesheet" href="/home.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://frontendmasters.com/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://frontendmasters.com/favicon-16x16.png"
+		/>
+		<title>Preview Course</title>
+	</head>
+	<body>
+		<!-- HEADER SECTION -->
+		<div id="header"></div>
+		<!-- 
+			-
+			-
+			HEADER SECTION -->
+
+		<div id="previewSection">
+			<div id="imageAndAuthor"></div>
+			<div id="preview"></div>
+		</div>
+
+		<!-- 
+			-
+			-
+			FOOTER SECTION -->
+		<div id="footer"></div>
+		<!-- FOOTER SECTION -->
+	</body>
+</html>
+<script type="module">
+	import navbar from "/components/header.js";
+	import footer from "/components/footer.js";
+
+	document.querySelector("#header").innerHTML = navbar();
+	document.querySelector("#footer").innerHTML = footer();
+</script>
+<script src="js/smallScript.js"></script>
+<script src="./js/preview.js"></script>
