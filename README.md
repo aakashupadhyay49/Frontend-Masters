@@ -24,19 +24,19 @@
 <h2>Sneak Peeks</h2>
 
 <p>Landing Page</p>
-<img src="public/Images/website_peeks/homepage.jpg" alt="landing page">
+<img src="U3-Construct-Week/public/Images/website_peeks/homepage.jpg" alt="landing page">
 
 <hr>
 <p>Courses Page</p>
-<img src="public/Images/website_peeks/courses.jpg" alt="courses page">
+<img src="U3-Construct-Week/public/Images/website_peeks/courses.jpg" alt="courses page">
 
 <hr>
 <p>Prices/Signup Page</p>
-<img src="public/Images/website_peeks/prices.jpg" alt="signup page">
+<img src="U3-Construct-Week/public/Images/website_peeks/prices.jpg" alt="signup page">
 
 <hr>
 <p>Teachers Page</p>
-<img src="public/Images/website_peeks/teachers.jpg" alt="teachers page">
+<img src="U3-Construct-Week/public/Images/website_peeks/teachers.jpg" alt="teachers page">
 
 
 <hr>
